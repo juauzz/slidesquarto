@@ -6,7 +6,7 @@
 <script src="SlidesQuarto_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="SlidesQuarto_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="SlidesQuarto_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="SlidesQuarto_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="SlidesQuarto_files/libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.40">
 
   <meta name="author" content="João Marcelo">
@@ -29,7 +29,8 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="SlidesQuarto_files/libs/revealjs/dist/theme/quarto-2a4c8bc07c7bed3f644724215556eb12.css">
+  <link rel="stylesheet" href="SlidesQuarto_files/libs/revealjs/dist/theme/quarto-5b48f34d633aed70c74c672477009ffc.css">
+  <link rel="stylesheet" href="meu-tema.css">
   <link href="SlidesQuarto_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="SlidesQuarto_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="SlidesQuarto_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -122,7 +123,7 @@
     }
   </style>
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
@@ -138,16 +139,18 @@ João Marcelo
 </div>
 
 </section>
-<section id="como-a-unreal-engine-5-foi-desenvolvida" class="slide level2">
-<h2>Como a Unreal Engine 5 foi desenvolvida?</h2>
+<section class="slide level2">
+
+<h3 id="como-a-unreal-engine-5-foi-desenvolvida">Como a Unreal Engine 5 foi desenvolvida?</h3>
 <p><strong>1- Base no Unreal Engine 4</strong><br>
 - Construída sobre o <strong>UE4</strong>, com otimizações para <strong>next-gen</strong>.<br>
 - Compatibilidade retroativa com projetos antigos (ou seja, resident evil antigo com o grafico perfeito!).</p>
 
-<img data-src="images/ss_d90819dc43141eee26b69a6cab43be00164adcb0.1920x1080.jpg" width="276" class="r-stretch"><p><sub>Resident&nbsp;evil&nbsp;4&nbsp;remake</sub></p>
+<img data-src="images/ss_d90819dc43141eee26b69a6cab43be00164adcb0.1920x1080.jpg" width="276" class="r-stretch"><p>Resident evil 4 remake</p>
 </section>
-<section id="linguagem-e-arquitetura" class="slide level2">
-<h2>Linguagem e Arquitetura</h2>
+<section class="slide level2">
+
+<h3 id="linguagem-e-arquitetura">Linguagem e Arquitetura</h3>
 <p><strong>2- Uso de C++ e Blueprints</strong><br>
 - <strong>Blueprints</strong> aprimorados para facilitar prototipagem.</p>
 <p><strong>3- Nova Arquitetura para Nanite</strong><br>
@@ -155,29 +158,29 @@ João Marcelo
 - Renderiza bilhões de polígonos sem comprometer FPS.</p>
 
 <img data-src="images/l2tkx412rx6a1.png" class="r-stretch"></section>
-<section id="tecnologias-principais" class="slide level2">
-<h2>Tecnologias Principais</h2>
-<h3 id="lumen-iluminação-global-dinâmica"><strong>Lumen: Iluminação Global Dinâmica</strong></h3>
+<section class="slide level2">
+
+<h3 id="tecnologias-principais">Tecnologias Principais</h3>
 <ul>
-<li><p>Baseado em <strong>Ray Tracing</strong>, mas otimizado para rodar sem GPU dedicada.<br>
-</p></li>
+<li><p><strong>Lumen: Iluminação Global Dinâmica</strong></p></li>
+<li><p>Baseado em <strong>Ray Tracing</strong>, mas otimizado para rodar sem GPU dedicada.</p></li>
 <li><p>Uso de <strong>Signed Distance Fields (SDFs)</strong> para sombras e iluminação.</p></li>
 </ul>
-<h3 id="chaos-physics-engine"><strong>Chaos Physics Engine</strong></h3>
+<h3 id="chaos-physics-engine">Chaos Physics Engine</h3>
 <ul>
-<li>Novo sistema de física, substituindo o <strong>PhysX</strong> da NVIDIA.<br>
-</li>
+<li>Novo sistema de física, substituindo o <strong>PhysX</strong> da NVIDIA.</li>
 <li>Melhor suporte para destruição e colisões detalhadas.</li>
 </ul>
 </section>
-<section id="mundo-aberto-e-animações" class="slide level2">
-<h2>Mundo Aberto e Animações</h2>
-<h3 id="world-partition-e-streaming-avançado"><strong>World Partition e Streaming Avançado</strong></h3>
+<section class="slide level2">
+
+<h3 id="mundo-aberto-e-animações">Mundo Aberto e Animações</h3>
 <ul>
-<li><strong>Mundo aberto sem loading</strong>, graças ao novo <strong>World Partition System</strong>.</li>
-<li><strong>Data Layers</strong> otimizam o carregamento de ambientes massivos.</li>
+<li><p><strong>World Partition e Streaming Avançado</strong></p></li>
+<li><p><strong>Mundo aberto sem loading</strong>, graças ao novo <strong>World Partition System</strong>.</p></li>
+<li><p><strong>Data Layers</strong> otimizam o carregamento de ambientes massivos.</p></li>
 </ul>
-<h3 id="metahuman-e-animações"><strong>MetaHuman e Animações</strong></h3>
+<h3 id="metahuman-e-animações">MetaHuman e Animações</h3>
 <ul>
 <li><p>Criação de personagens realistas via <strong>MetaHuman Creator</strong>.</p></li>
 <li><p><strong>Control Rig e Motion Matching</strong></p></li>
@@ -185,35 +188,38 @@ João Marcelo
 </section>
 <section class="slide level2">
 
-<p><strong>Mundo Aberto na Unreal 5</strong></p>
+<h3 id="mundo-aberto-na-unreal-5">Mundo Aberto na Unreal 5</h3>
 
 <img data-src="images/ends_ztut-01.jpg" width="461" class="r-stretch"><p>OLHA ESSA QUALIDADE!</p>
 </section>
 <section class="slide level2">
 
-<p><strong>Metahuman creator</strong></p>
+<h3 id="metahuman-creator">Metahuman creator</h3>
 
 <img data-src="images/metahuman.jpeg" width="302" class="r-stretch"><p>A CAMADA DE DETALHES!!!</p>
 </section>
 <section class="slide level2">
 
-<p><strong>Control rig</strong></p>
+<h3 id="control-rig">Control rig</h3>
 
 <img data-src="images/socialmedia.png.png" width="488" class="r-stretch"><p>IMAGINA UMA BOSS FIGHT!!!!!</p>
 </section>
 <section class="slide level2">
 
-<p><strong>Motion match</strong></p>
+<h3 id="motion-match">Motion match</h3>
 
 <img data-src="images/images.jpeg" width="425" class="r-stretch"><p>IMAGINEM OS REMAKES!!!</p>
 </section>
-<section id="conclusão" class="slide level2">
-<h2>Conclusão</h2>
+<section class="slide level2">
+
+<h3 id="conclusão">Conclusão</h3>
 <ul>
-<li>Mudança de paradigma na criação de jogos, animações e até metaverso.<br>
-</li>
+<li>Mudança de paradigma na criação de jogos, animações e até metaverso.</li>
 <li>Mas eaí vocês acham que UE5 pode ser o futuro do cinema e da produção digital?</li>
 </ul>
+</section>
+<section class="slide level2">
+
 
 </section>
     </div>

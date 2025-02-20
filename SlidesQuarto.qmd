@@ -1,0 +1,106 @@
+---
+title: "Unreal Engine 5: A Revolução dos Jogos"
+author: "João Marcelo"
+format: 
+  revealjs:
+    theme: dark
+    transition: fade
+    slide-number: true
+    css: meu-tema.css  
+editor: visual
+---
+
+### Como a Unreal Engine 5 foi desenvolvida?
+
+**1- Base no Unreal Engine 4**\
+- Construída sobre o **UE4**, com otimizações para **next-gen**.\
+- Compatibilidade retroativa com projetos antigos (ou seja, resident evil antigo com o grafico perfeito!).
+
+![](images/ss_d90819dc43141eee26b69a6cab43be00164adcb0.1920x1080.jpg){width="276"}
+
+Resident evil 4 remake
+
+------------------------------------------------------------------------
+
+### Linguagem e Arquitetura
+
+**2- Uso de C++ e Blueprints**\
+- **Blueprints** aprimorados para facilitar prototipagem.
+
+**3- Nova Arquitetura para Nanite**\
+- Sistema de **Geometria Virtualizada** que substitui os **LODs** tradicionais.\
+- Renderiza bilhões de polígonos sem comprometer FPS.
+
+![](images/l2tkx412rx6a1.png)
+
+------------------------------------------------------------------------
+
+### Tecnologias Principais
+
+-   **Lumen: Iluminação Global Dinâmica**
+
+-   Baseado em **Ray Tracing**, mas otimizado para rodar sem GPU dedicada.
+
+-   Uso de **Signed Distance Fields (SDFs)** para sombras e iluminação.
+
+### Chaos Physics Engine
+
+-   Novo sistema de física, substituindo o **PhysX** da NVIDIA.
+-   Melhor suporte para destruição e colisões detalhadas.
+
+------------------------------------------------------------------------
+
+### Mundo Aberto e Animações
+
+-   **World Partition e Streaming Avançado**
+
+-   **Mundo aberto sem loading**, graças ao novo **World Partition System**.
+
+-   **Data Layers** otimizam o carregamento de ambientes massivos.
+
+### MetaHuman e Animações
+
+-   Criação de personagens realistas via **MetaHuman Creator**.
+
+-   **Control Rig e Motion Matching**
+
+------------------------------------------------------------------------
+
+### Mundo Aberto na Unreal 5
+
+![](images/ends_ztut-01.jpg){width="461"}
+
+OLHA ESSA QUALIDADE!
+
+------------------------------------------------------------------------
+
+### Metahuman creator
+
+![](images/metahuman.jpeg){width="302"}
+
+A CAMADA DE DETALHES!!!
+
+------------------------------------------------------------------------
+
+### Control rig
+
+![](images/socialmedia.png.png){width="488"}
+
+IMAGINA UMA BOSS FIGHT!!!!!
+
+------------------------------------------------------------------------
+
+### Motion match
+
+![](images/images.jpeg){width="425"} 
+
+IMAGINEM OS REMAKES!!!
+
+------------------------------------------------------------------------
+
+### Conclusão
+
+-   Mudança de paradigma na criação de jogos, animações e até metaverso.
+-   Mas eaí vocês acham que UE5 pode ser o futuro do cinema e da produção digital?
+
+------------------------------------------------------------------------

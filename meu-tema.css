@@ -1,0 +1,37 @@
+/* Borda ao redor de toda a área do slide */
+.reveal {
+  border: 5px solid #333;  /* Borda externa ao redor do slide */
+  padding: 20px;  /* Espaçamento interno para a borda não ficar colada */
+  margin: 0 auto;  /* Centraliza os slides na tela */
+  box-sizing: border-box;  /* Inclui a borda no cálculo do tamanho total */
+}
+
+/* Ajuste para o slide e conteúdo */
+.reveal section {
+  font-size: 0.9em; /* Fonte pequena */
+  padding: 30px;
+  background-color: transparent;
+  color: #ddd;
+  border: none;  /* Remove qualquer borda extra do conteúdo */
+  margin-top: 20px; /* Margem superior reduzida */
+  margin-left: 10px; /* Adicionando margem à esquerda */
+}
+
+/* Adicionando borda no slide (caixa de conteúdo) */
+.reveal section {
+  border: 5px solid #333;  /* Borda fina em cada slide */
+  margin: 10px;
+  padding: 20px;
+}
+
+/* Ajuste para o título (###) */
+.reveal h3 {
+  font-size: 1.2em;
+  text-align: left;
+  padding: 20px;
+  background-color: #444;
+  color: white;
+  border-bottom: 3px solid #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
